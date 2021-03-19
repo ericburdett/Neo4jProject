@@ -1,0 +1,7 @@
+name: neo4j_env
+channels:
+- defaults
+- anaconda
+dependencies:
+- anaconda::neo4j-python-driver
+- anaconda::flask
